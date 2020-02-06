@@ -103,6 +103,7 @@ public class CharacterController2D : MonoBehaviour
 					m_wasCrouching = false;
 					OnCrouchEvent.Invoke(false);
 				}
+                
 			}
 
 			// Move the character by finding the target velocity
