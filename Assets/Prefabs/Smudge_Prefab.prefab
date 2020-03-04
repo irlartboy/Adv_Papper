@@ -659,14 +659,14 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 12
+    type: 4
     angle: 14.300479
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: -0.53935814, y: -1.199395, z: -0.21609451}
-    m_Rotation: {x: -0, y: 0, z: 67.08551}
+    m_Position: {x: -0.6016207, y: -1.1412833, z: -0.21609451}
+    m_Rotation: {x: 341.68167, y: 270, z: 0}
     m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
@@ -3171,8 +3171,8 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.009
-      minScalar: 0.0075
+      scalar: 0.075
+      minScalar: 0.055
       maxCurve:
         serializedVersion: 2
         m_Curve:
