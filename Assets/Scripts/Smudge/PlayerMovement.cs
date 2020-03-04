@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed = 150f;
     private bool jump = false;
     private bool crouch = false;
-
+    public Animator anim;
     void Update()
     {
         horiMove = Input.GetAxisRaw("Horizontal") * walkSpeed;
@@ -26,6 +26,25 @@ public class PlayerMovement : MonoBehaviour
         {
             crouch = false;
         }
+
+        if(Input.GetAxis("Horizontal") != 0)
+        {
+            anim.SetBool("isMoving", true);
+        }
+        else
+        {
+            anim.SetBool("isMoving", false);
+        }
+
+        /* if(anim.GetBool("isMoving") && (Input.GetAxis("Horizontal") < 0.2f || Input.GetAxis("Horizontal") > -0.2f))
+         {
+             anim.SetBool("isMoving", false);
+         }
+         if (!anim.GetBool("isMoving") && (Input.GetAxis("Horizontal") > 0.2f || Input.GetAxis("Horizontal") < -0.2f))
+         {
+             anim.SetBool("isMoving", true);
+         }*/
+
     }
 
     void FixedUpdate()

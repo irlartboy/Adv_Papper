@@ -34,3 +34,4 @@ public class MenuManager : MonoBehaviour
         startPanel.SetActive(true);
     }
 }
+
