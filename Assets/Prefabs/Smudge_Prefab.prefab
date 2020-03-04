@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4202669281714434873
 Transform:
   m_ObjectHideFlags: 0
@@ -665,9 +665,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: -0.4428091, y: -0.9925027, z: -0.21609451}
-    m_Rotation: {x: 337.179, y: 16.446762, z: 59.0621}
-    m_Scale: {x: 2.6102428, y: 1, z: 1}
+    m_Position: {x: -0.53935814, y: -1.199395, z: -0.21609451}
+    m_Rotation: {x: -0, y: 0, z: 67.08551}
+    m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -747,7 +747,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.11448266
+      value: 0.05751001
       mode: 0
       spread: 0
       speed:
@@ -3171,8 +3171,8 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.09
-      minScalar: 0.075
+      scalar: 0.009
+      minScalar: 0.0075
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -4921,6 +4921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cont: {fileID: 8816265799217163067}
   walkSpeed: 100
+  anim: {fileID: 0}
 --- !u!70 &7122983037245633035
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
