@@ -1514,6 +1514,11 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 249941876}
+    - target: {fileID: 8816265799217163067, guid: 12ede27d5093bb142b2543bb5639eb79,
+        type: 3}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12ede27d5093bb142b2543bb5639eb79, type: 3}
 --- !u!1 &1260647432

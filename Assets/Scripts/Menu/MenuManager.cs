@@ -12,6 +12,7 @@ public class MenuManager : MonoBehaviour
     public void PlayButton()
     {
         SceneManager.LoadScene(sceneBuildIndex: 1);
+        Time.timeScale = 1;
     }
 
     public void OptionsButton()
