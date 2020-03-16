@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 
-
-
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D cont;
@@ -17,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            anim.SetBool("isJumping", true);
+        }
+        else if (Input.GetButtonUp("Jump"))
+        {
+            jump = false;
+            anim.SetBool("isJumping", false);
         }
         if (Input.GetButtonDown("Crouch"))
         {

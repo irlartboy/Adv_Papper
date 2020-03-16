@@ -4820,7 +4820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8816265799217163057}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.134, y: -2.733, z: 0}
+  m_LocalPosition: {x: -8.134, y: -3.384, z: 0}
   m_LocalScale: {x: 0.449, y: 0.479, z: 1}
   m_Children:
   - {fileID: 8816265798611820392}
@@ -4897,7 +4897,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   m_GroundCheck: {fileID: 8816265799222317340}
   m_CeilingCheck: {fileID: 8816265798611820392}
   m_CrouchDisableCollider: {fileID: 1239547497589848899}
@@ -4920,8 +4920,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cont: {fileID: 8816265799217163067}
-  walkSpeed: 100
-  anim: {fileID: 0}
+  walkSpeed: 75
+  anim: {fileID: 4299503703958963913}
 --- !u!70 &7122983037245633035
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
